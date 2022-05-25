@@ -25,7 +25,7 @@ module.exports = {
   },
   output: {
     filename: '[name]/index.js',
-    path: path.resolve(__dirname, 'infrastructure/functions/dist'),
+    path: path.resolve(__dirname, 'infrastructure/functions'),
     libraryTarget: 'commonjs', // IMPORTANT!
   },
   optimization: {
