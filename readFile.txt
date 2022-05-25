@@ -1,0 +1,5 @@
+To Load The Data From EXCEL_FILE You Have To Save Your File In data Folder File Must Be In .xlsx
+GRAPHQL="http://localhost:7071"
+ROUTE=Aapollo Client Route From Uri  Ex:-"/api/config-graph-api" 
+EXCEL_FILE_NAME=Add excel file In Data Folder  Ex:-"./data/Tenant+Configurations.xlsx"
+OWNER=Add Owner Id Here Ex:-"2a72161a-ccf9-403d-86a7-d1914a7f660a"

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "infrastructure/functions/dist",
+    "target": "es2017",
+    "rootDir": "infrastructure/functions/",
+    "sourceMap": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true
+  }
+}

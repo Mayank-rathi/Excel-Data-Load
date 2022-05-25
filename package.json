@@ -1,0 +1,41 @@
+{
+  "name": "exceldataread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn infrastructure/functions/dist/index.js",
+    "dev": "nodemon --exec ts-node infrastructure/functions/index.ts",
+    "fnStart": "cd infrastructure/functions/ && func start",
+    "build": "tsc && yarn install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npm run build && func extensions install",
+    "build:prod": "webpack --mode=development "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/node-fetch": "^2.6.1",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "xlsx": "^0.18.5",
+    "webpack": "^5.53.0"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.31",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4",
+    "xlsx": "^0.18.5",
+    "ts-loader": "^9.3.0",
+    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "webpack-cli": "^4.8.0",
+    "native-ext-loader": "^2.3.0"
+  }
+}
